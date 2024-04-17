@@ -282,7 +282,7 @@ footer img {
 
     .menuBox {
         width: 400px;
-        height: 960px;
+        height: 1800px;
         background-color: #F8F8F8;
         position: absolute;
         top: 0;
@@ -1308,7 +1308,7 @@ footer img {
 
 
 .other-title-arrow {
-    width: 1250px;
+    width: 500px;
     animation-name: other-to-left;
     animation-duration: 4s;
     animation-iteration-count: infinite;

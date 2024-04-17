@@ -1151,7 +1151,7 @@ footer img {
             left: 0;
         }
         to {
-            left: 200px;
+            left: 100px;
         }
     }
 }
@@ -1314,16 +1314,16 @@ footer img {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     top: 150px;
-    right: -500px;
+    right: 0;
     transform: rotate(-180deg);
 }
 
 @keyframes other-to-left {
     from {
-        right: -500px;
+        right: 0;
     }
     to {
-        right: -300px;
+        right: -200px;
     }
 }
 
@@ -1349,6 +1349,19 @@ footer img {
         height: 750px;
     }
 
+    .other-title-arrow {
+        width: 350px;
+    }
+
+    @keyframes other-to-left {
+        from {
+            right: -150px;
+        }
+        to {
+            right: 0;
+        }
+    }
+
     .other-content iframe {
         width: 450px;
         height: 320px;
@@ -1370,15 +1383,6 @@ footer img {
 
     .other-title-arrow {
         width: 280px;
-    }
-
-    @keyframes other-to-left {
-        from {
-            right: -100px;
-        }
-        to {
-            right: -50px;
-        }
     }
 
     .other-content iframe {

@@ -346,6 +346,10 @@ footer img {
     }
 }
 
+@media screen and (max-width: 400px) {
+
+}
+
 /* 關於我 */
 .about {
     width: 100%;
@@ -572,6 +576,87 @@ footer img {
     }
 }
 
+@media screen and (max-width: 550px) {
+    .about-txt {
+        width: 350px;
+        height: 350px;
+        margin-right: 0;
+    }
+    .about-txt-border {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about {
+        height: 760px;
+    }
+
+    .about-title {
+        left: -400px;
+    }
+
+    .about-title h2 {
+        font-size: 1.4em;
+    }
+
+    .about-title p {
+        font-size: 1.1em;
+    }
+    
+    .about-title-arrow {
+        width: 550px;
+        animation-duration: 3s;
+    }
+
+    .headshot {
+        border: 3px solid #923EDF;
+        border-radius: 30px;
+    }
+
+    .headshot img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-info p {
+        font-size: 1.2em;
+        margin: 16px 0;
+    }
+
+    .about-info ul {
+        display: contents;
+    }
+
+    .about-info li {
+        margin: 8px 0;
+    }
+
+    .about-txt {
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .about-txt-border {
+        width: 230px;
+        height: 230px;
+        border: 2px solid #fff;
+        border-radius: 20px;
+    }
+
+    .about-txt p {
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 32px;
+    }
+
+    .about-txt li {
+        margin-right: 15px;
+        font-size: 10px;
+    }
+}
 
 /* 經歷 */
 
@@ -703,15 +788,15 @@ footer img {
     }
 
     .education-info {
-        width: 400px;
+        width: 350px;
     }
 
     .skills-info {
-        width: 400px;
+        width: 350px;
     }
 
     .experience {
-        width: 400px;
+        width: 350px;
     }
 
     .experience-info {
@@ -720,6 +805,28 @@ footer img {
 
     .line-l {
         height: 550px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .education-info {
+        width: 250px;
+    }
+
+    .skills-info {
+        width: 250px;
+    }
+
+    .experience {
+        width: 250px;
+    }
+
+    .experience-info h4 {
+        font-size: 1em;
+    }
+
+    .ml-s {
+        margin-left: 20px;
     }
 }
 
@@ -1062,6 +1169,10 @@ footer img {
         font-size: 1.5em;
     }
 
+    .web {
+        width: 380px;
+    }
+
     .web-txt {
         margin: 1em 0 2em 0;
     }
@@ -1120,6 +1231,60 @@ footer img {
         font-size: 2em;
         -webkit-text-stroke: 0.5px #252525;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .web {
+        width: 100%;
+    }
+
+    .web-txt {
+        width: 230px;
+    }
+
+    .web-txt h3 {
+        font-size: 14px;
+    }
+
+    .web-title-arrow {
+        top: 180px;
+        right: -180px;
+    }
+
+    .arrow {
+        height: 2px;
+    }
+
+    .arrow::after {
+        right: -6px;
+        top: -6px;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 10px solid #252525;
+    }
+
+    @keyframes webdown {
+        from {
+            top: 120px;
+        }
+        to {
+            top: 200px;
+        }
+    }
+
+    .illustration-title-arrow {
+        left: -250px;
+    }
+
+    @keyframes illustration-to-right {
+        from {
+            left: -200px;
+        }
+        to {
+            left: -100px;
+        }
+    }
+
 }
 
 /* 其他 */
@@ -1203,12 +1368,16 @@ footer img {
         right: 0;
     }
 
+    .other-title-arrow {
+        width: 280px;
+    }
+
     @keyframes other-to-left {
         from {
-            right: -250px;
+            right: -100px;
         }
         to {
-            right: -150px;
+            right: -50px;
         }
     }
 
@@ -1217,4 +1386,36 @@ footer img {
         height: 280px;
     }
 
+}
+
+@media screen and (max-width: 400px) {
+    .other {
+        height: 550px;
+    }
+
+    .other-title{
+        width: 250px;
+    }
+    .other-title p {
+        font-size: 1.5em;
+    }
+
+    .other-title-arrow {
+        width: 200px;
+        top: 120px;
+    }
+
+    @keyframes other-to-left {
+        from {
+            right: -70px;
+        }
+        to {
+            right: 10px;
+        }
+    }
+
+    .other-content iframe {
+        width: 250px;
+        height: 200px;
+    }
 }

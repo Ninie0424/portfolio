@@ -24,8 +24,8 @@ nav {
 }
 
 nav img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 nav ul {
@@ -72,8 +72,8 @@ footer p {
 }
 
 footer img {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
 }
 
 .flex {
@@ -401,17 +401,18 @@ footer img {
 }
 
 .about-txt {
-    width: 500px;
+    width: 650px;
     height: 500px;
     border-radius: 50px;
-    text-align: center;
+    text-align: left;
     margin-right: 150px;
 }
 
 .about-txt p {
     font-size: 16px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     line-height: 40px;
+    margin: 0 20px;
 }
 
 .about-txt p, .about-txt ul {
@@ -427,7 +428,7 @@ footer img {
 }
 
 .about-txt-border {
-    width: 450px;
+    width: 600px;
     height: 450px;
     border: 5px solid #fff;
     border-radius: 50px;
@@ -487,6 +488,14 @@ footer img {
         width: 400px;
         height: 400px;
         border-radius: 30px;
+    }
+
+    .about-txt p {
+        margin: 0 20px;
+    }
+
+    .about-txt ul {
+        margin-top: 30px;
     }
 
     .headshot img {
@@ -579,12 +588,16 @@ footer img {
 @media screen and (max-width: 550px) {
     .about-txt {
         width: 350px;
-        height: 350px;
+        height: 400px;
         margin-right: 0;
     }
     .about-txt-border {
         width: 320px;
-        height: 320px;
+        height: 370px;
+    }
+
+    .about-info li {
+        font-size: 1em;
     }
 }
 
@@ -700,8 +713,6 @@ footer img {
 
 .skills-info {
     width: 550px;
-    height: 150px;
-    margin-top: 2em;
 }
 
 .skills-info ul {
@@ -754,7 +765,7 @@ footer img {
 
 @media screen and (max-width: 1500px){
     .information {
-        height: 1600px
+        height: 2000px
     }
 
     .information-content {
@@ -769,7 +780,6 @@ footer img {
 
     .skills-info {
         width: 460px;
-        height: 180px;
     }
 
     .experience-info {
@@ -783,10 +793,6 @@ footer img {
 }
 
 @media screen and (max-width: 550px){
-    .information {
-        height: 1700px;
-    }
-
     .education-info {
         width: 350px;
     }
@@ -834,7 +840,7 @@ footer img {
 
 .portfolio {
     width: 100%;
-    height: 3200px;
+    height: 4600px;
     position: relative;
 }
 
@@ -1013,7 +1019,7 @@ footer img {
 .portfolio-watermark {
     position: relative;
     position: absolute;
-    top: 1600px;
+    top: 3000px;
     right: 200px;
 }
 
@@ -1103,7 +1109,7 @@ footer img {
     }
 
     .portfolio-watermark {
-        top: 1550px;
+        top: 3050px;
         right: 50px
     }
 
@@ -1154,11 +1160,21 @@ footer img {
             left: 100px;
         }
     }
+
+    .portfolio-watermark {
+        top: 3000px;
+        right: 50px
+    }
+
+    .portfolio-watermark p {
+        font-size: 2em;
+        -webkit-text-stroke: 0.5px #252525;
+    }
 }
 
 @media screen and (max-width: 550px){
     .portfolio {
-        height: 4000px;
+        height: 6100px;
     }
 
     .portfolio-title {
@@ -1223,7 +1239,7 @@ footer img {
     }
 
     .portfolio-watermark {
-        top: 2350px;
+        top: 4450px;
         right: 20px;
     }
 
@@ -1287,11 +1303,116 @@ footer img {
 
 }
 
-/* 其他 */
+/* 動態 */
+.dynamic {
+    width: 100%;
+    height: 1580px;
+    position: relative;
+    background-color: #d5d5d5;
+}
+
+.dynamic-title p {
+    font-size: 4em;
+    font-weight: 800;
+    color: #000000;
+    -webkit-text-stroke: 1px #212121;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+.dynamic-video {
+    position: absolute;
+    top: 300px;
+    width: 1500px;
+}
+
+.dynamic-video div {
+    margin: 2em;
+    flex-wrap: wrap;
+}
+
+
+.dynamic-pic {
+    width: 400px;
+    height: auto;
+    margin: 2em;
+}
+
+
+
+@media screen and (max-width: 1500px){
+
+    .dynamic-video video {
+        width: 350px;
+        margin: 1.5em;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    .dynamic-title {
+        top: 50px;
+        left: 100px;
+    }
+
+    .dynamic-video {
+        top: 250px;
+        width: 900px;
+    }
+
+
+    .dynamic-video video {
+        width: 300px;
+        margin: 1em;
+    }
+
+}
+
+@media screen and (max-width: 950px){
+
+    .dynamic-title {
+        left: 50px;
+    }
+
+    .dynamic-title p {
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .dynamic {
+        height: 2500px;
+    }
+
+    .dynamic-title {
+        top: 120px;
+    }
+
+    .dynamic-title p {
+        font-size: 2.5em;
+        margin-bottom: 12px;
+    }
+
+    .dynamic-video {
+        width: 300px;
+        top: 120px;
+    }
+
+    .dynamic-video video {
+        width: 250px;
+        margin: 1em;
+    }
+    
+}
+
+
+/* Live2D影片 */
 
 .other {
     width: 100%;
-    height: 1080px;
+    height: 1880px;
     position: relative;
     background-color: #F8F8F8;
 }
@@ -1335,6 +1456,7 @@ footer img {
 .other-content iframe {
     width: 1100px;
     height: 700px;
+    margin-top: 2em;
 }
 
 @media screen and (max-width: 1200px){
@@ -1344,9 +1466,15 @@ footer img {
     }
 }
 
+@media screen and (max-width: 950px){
+    .other {
+        height: 1300px;
+    }
+}
+
 @media screen and (max-width: 768px){
     .other {
-        height: 750px;
+        height: 1050px;
     }
 
     .other-title-arrow {

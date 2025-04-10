@@ -1306,7 +1306,7 @@ footer img {
 /* 動態 */
 .dynamic {
     width: 100%;
-    height: 1580px;
+    height: 2200px;
     position: relative;
     background-color: #d5d5d5;
 }
@@ -1323,7 +1323,7 @@ footer img {
 
 .dynamic-video {
     position: absolute;
-    top: 300px;
+    top: 200px;
     width: 1500px;
 }
 
@@ -1383,7 +1383,7 @@ footer img {
 
 @media screen and (max-width: 550px){
     .dynamic {
-        height: 2500px;
+        height: 3000px;
     }
 
     .dynamic-title {
@@ -1412,7 +1412,7 @@ footer img {
 
 .other {
     width: 100%;
-    height: 1880px;
+    height: 2600px;
     position: relative;
     background-color: #F8F8F8;
 }
@@ -1460,21 +1460,18 @@ footer img {
 }
 
 @media screen and (max-width: 1200px){
+    .other {
+        height: 1800px;
+    }
     .other-content iframe {
         width: 700px;
         height: 450px;
     }
 }
 
-@media screen and (max-width: 950px){
-    .other {
-        height: 1300px;
-    }
-}
-
 @media screen and (max-width: 768px){
     .other {
-        height: 1050px;
+        height: 1350px;
     }
 
     .other-title-arrow {
@@ -1521,10 +1518,6 @@ footer img {
 }
 
 @media screen and (max-width: 400px) {
-    .other {
-        height: 550px;
-    }
-
     .other-title{
         width: 250px;
     }

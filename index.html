@@ -15,7 +15,7 @@
         <div class="flex">
             <div class="logo">
                 <h1 class="color--white">logo</h1>
-                <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+                <a id="about"><img src="Images/logo.png" alt="logo"></a>
             </div>
             <a class="menuBtn">
                 <span></span>
@@ -23,8 +23,9 @@
             <div class="menuBox">
                 <ul>
                     <li><a id="about">About</a></li>
-                    <li><a id="portfolio">Portfolio</a></li>
-                    <li><a id="live2d">Live2D</a></li>
+                    <li><a id="web">Web/UI Design</a></li>
+                    <li><a id="illustration">Illustration</a></li>
+                    <li><a id="dynamic">Dynamic</a></li>
                 </ul>
             </div>
         </div>
@@ -42,7 +43,7 @@
             <div class="about-txt flex bg--purple">
                 <div class="about-txt-border flex flex-column">
                     <div>
-                        <p>擁有一年以上設計相關經驗，喜愛美的事物，熱衷於欣賞各種不同風格的畫作及動態，並對 2D 動態製作充滿熱情。擅長Q版風格，利用Live2D製作動態，樂於學習新技術。同時擁有設計能力與程式邏輯思維，曾參與桃園國際機場官網首頁主視覺動圖製作。</p>
+                        <p>擁有一年以上設計相關經驗，喜愛美的事物，熱衷於欣賞各種風格的設計作品，目前持續精進於 UI 設計、網頁設計與動態圖像製作。熟悉HTML/CSS，設計工具上擅長 Figma 與 Photoshop，曾參與桃園國際機場官網首頁主視覺動圖製作，並修正桃機公司網無障礙問題。</p>
                     </div>
                     <div>
                         <ul>
@@ -62,7 +63,7 @@
                         <p>蔡庭珍</p>
                         <ul>
                             <li>0979-886-331</li>
-                            <li>ninie91928@gmail.com</li>
+                            <li>erjie0424@gmail.com</li>
                             <li>桃園市</li>
                         </ul>
                     </div>
@@ -72,7 +73,7 @@
     </section>
     <section class="information">
         <div class="flex information-content">
-            <div class="flex flex-column">
+            <div class="flex flex-column information-left">
                 <div class="education">
                     <div class="flex flex-left information-title">
                         <h3 class="m-s">學歷</h3>
@@ -82,7 +83,7 @@
                         <div>
                             <div class="flex flex-column">
                                 <img src="Images/point.png" alt="點1">
-                                <div class="line-s"></div>
+                                <div class="line-xs"></div>
                                 <img src="Images/point.png" alt="點2">
                             </div>
                         </div>
@@ -111,10 +112,12 @@
                     </div>
                     <div>
                         <div class="skills-info m-s">
-                            <h4>動畫製作</h4>
-                            <ul>
-                                <li>Live2D</li>
-                                <li>Spine</li>
+                            <h4>網頁開發</h4>
+                            <il>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>RWD</li>
                             </ul>
                         </div>
                         <div class="skills-info m-s">
@@ -126,59 +129,74 @@
                             </ul>
                         </div>
                         <div class="skills-info m-s">
-                            <h4>網頁開發</h4>
+                            <h4>動畫製作</h4>
                             <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>RWD</li>
+                                <li>Live2D</li>
+                                <li>Spine</li>
                             </ul>
                         </div>
-                        
                     </div>
                 </div>
+                <img class="decorate-img mt-m" src="Images/hello.png" alt="揮手裝飾圖片">
             </div>
-            <div class="experience">
-                <div class="flex flex-left information-title">
-                    <h3 class="m-s">工作經歷</h3>
-                    <p class="color--purple m-s">Experience</p>
-                </div>
-                <div class="flex flex-left ml-s mt-s">
-                    <div class="flex flex-column">
-                        <img src="Images/point.png" alt="點3">
-                        <div class="line-l"></div>
+            <div class="flex flex-column">
+                <div class="experience">
+                    <div class="flex flex-left information-title">
+                        <h3 class="m-s">經歷</h3>
+                        <p class="color--purple m-s">Experience</p>
                     </div>
-                    <div class="experience-info ml-s">
-                        <h4>頑石國際有限公司</h4>
-                        <p class="blod">網頁設計師｜2022/10~2023/12</p>
-                        <p>與後端工程師、專案經理及桃園機場公司密切合作，參與【桃園國際機場-旅客服務網】、【桃園國際機場股份有限公司-機場公司網】及【桃園國際機場行動平台 APP】的開發、改版與維護，確保系統穩定運行並優化使用者體驗。</p>
-                        <ul>
-                            <li>工作內容：</li>
-                            <li>維護網站之正常運作，確保用戶體驗順暢。</li>
-                            <li>負責系統應用手冊維護及日誌登錄。</li>
-                            <li>設計並更新首頁節慶視覺（春節、中秋節、端午節等）、Banner、圖片及動畫。</li>
-                            <li>網站文章排版、編輯與上稿，機場設施資訊更新及管理。</li>
-                            <li>配合網站系統運行相關事宜，確保內容準確與即時更新。</li>
-                            <li>完成上級交辦事項。</li>
-                        </ul>
+                    <div class="flex flex-left ml-s mt-s">
+                        <div class="flex flex-column">
+                            <img src="Images/point.png" alt="點3">
+                            <div class="line-l"></div>
+                        </div>
+                        <div class="experience-info ml-s">
+                            <h4>頑石國際有限公司</h4>
+                            <p class="blod">網頁設計師｜2022/10~2023/12</p>
+                            <p>與後端工程師、專案經理及桃園機場公司密切合作，參與【桃園國際機場-旅客服務網】、【桃園國際機場股份有限公司-機場公司網】及【桃園國際機場行動平台 APP】的開發、改版與維護，確保系統穩定運行並優化使用者體驗。</p>
+                            <p>工作內容：</p>
+                            <ul>
+                                <li>維護網站之正常運作，確保用戶體驗順暢。</li>
+                                <li>負責系統應用手冊維護及日誌登錄。</li>
+                                <li>設計並更新首頁節慶視覺（春節、中秋節、端午節等）、Banner、圖片及動畫。</li>
+                                <li>網站文章排版、編輯與上稿，機場設施資訊更新及管理。</li>
+                                <li>配合網站系統運行相關事宜，確保內容準確與即時更新。</li>
+                                <li>完成上級交辦事項。</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="flex flex-left ml-s">
-                    <div class="flex flex-column">
-                        <img src="Images/point.png" alt="點3">
-                        <div class="line-l"></div>
+                    <div class="flex flex-left ml-s">
+                        <div class="flex flex-column">
+                            <img src="Images/point.png" alt="點3">
+                            <div class="line-m"></div>
+                        </div>
+                        <div class="experience-info ml-s">
+                            <h4>透過線上課程學習Live2D</h4>
+                            <p class="blod">2024/04~持續學習中</p>
+                            <ul>
+                                <li>從0開始學習Live2D，熟悉建模、參數、物理等設定。</li>
+                                <li>學習動畫原理， 研究時間曲線與動態節奏。</li>
+                                <li>透過老師與助教的建議，精進自身不足之處。</li>
+                                <li>觀察手遊或Twitter上不同作者製作的角色動態。</li>
+                                <li>獨立設計並製作一個完整的V皮。</li>
+                                <li>製作精緻大圖動態，從建模至設計動態獨立完成。</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="experience-info ml-s">
-                        <h4>透過線上課程學習Live2D</h4>
-                        <p class="blod">2024/04~持續學習中</p>
-                        <ul>
-                            <li>從0開始學習Live2D，熟悉建模、參數、物理等設定。</li>
-                            <li>學習動畫原理， 研究時間曲線與動態節奏。</li>
-                            <li>透過老師與助教的建議，精進自身不足之處。</li>
-                            <li>觀察手遊或Twitter上不同作者製作的角色動態。</li>
-                            <li>獨立設計並製作一個完整的V皮。</li>
-                            <li>製作精緻大圖動態，從建模至設計動態獨立完成。</li>
-                        </ul>
+                    <div class="flex flex-left ml-s">
+                        <div class="flex flex-column">
+                            <img src="Images/point.png" alt="點4">
+                            <div class="line-s"></div>
+                        </div>
+                        <div class="experience-info ml-s">
+                            <h4>艾奈科技有限公司</h4>
+                            <p class="blod">遊戲UI設計培訓計畫｜2025/06~2025/06</p>
+                            <ul>
+                                <li>擷取IP元素，思考可應用的設計。</li>
+                                <li>理解並整合介面的功能，重新架構介面資訊，同時確認其他關聯或並行的介面。</li>
+                                <li>有限的時間內製作完成。</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -235,6 +253,44 @@
                 </div>
             </div>
         </div>
+        <a id="gameUI"></a>
+        <div class="ui flex">
+            <div class="ui-title">
+                <p class="font-PDSC">Game UI</p>
+                <div class="arrow ui-title-arrow"></div>
+            </div>
+            <div class="ui-img">
+                <div class="flex">
+                    <img src="Images/2-1.png" alt="">
+                    <img src="Images/2-2.png" alt="">
+                    <img src="Images/2-3.png" alt="">
+                    <img src="Images/3-1-1.png" alt="">
+                    <img src="Images/3-1-2.png" alt="">
+                    <img src="Images/3-2-1.png" alt="">
+                    <img src="Images/3-3-1.png" alt="">
+                    <img src="Images/3-3-2.png" alt="">
+                    <img src="Images/4-1.png" alt="">
+                    <img src="Images/4-2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <a class="block3"></a>
+        <div class="icon flex">
+            <div class="icon-title flex flex-column flex-align-right">
+                <p class="font-PDSC">Icon</p>
+                <div class="arrow-white web-title-arrow"></div>
+            </div>
+            <div class="icon-img">
+            <div class="flex">
+                <img src="Images/shop.png" alt="商城icon">
+                <img src="Images/seven.png" alt="七日登入icon">
+                <img src="Images/rank.png" alt="排行榜icon">
+                <img src="Images/icon-1.png" alt="">
+                <img src="Images/icon-2.png" alt="">
+                <img src="Images/icon-3.png" alt="">
+            </div>
+        </div>
+        </div>
         <div class="illustration flex">
             <div class="illustration-title">
                 <p class="font-PDSC">illustration</p>
@@ -268,10 +324,11 @@
         </div>
     </section>
     <section class="dynamic">
-        <a class="block3"></a>
+        <a class="block4"></a>
         <div class="dynamic flex">
             <div class="dynamic-title">
                 <p class="font-PDSC">Dynamic</p>
+                <span>◆ 動態皆為使用Live2D Cubism製作</span>
             </div>
             <div class="dynamic-video">
                 <div class="flex">

@@ -17,10 +17,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 var toAbout = document.querySelector("#about");
 var block1 = document.querySelector(".block1");
-var toPortfolio = document.querySelector("#portfolio");
+var toWeb = document.querySelector("#web");
 var block2 = document.querySelector(".block2");
-var toOther = document.querySelector("#live2d");
+var toIllustration = document.querySelector("#illustration");
 var block3 = document.querySelector(".block3");
+var toDynamic = document.querySelector("#dynamic");
+var block4 = document.querySelector(".block4");
 let menuBtn  = document.querySelector('.menuBtn');
 let menuBox  = document.querySelector('.menuBox');
 
@@ -47,14 +49,20 @@ toAbout.addEventListener("click",function(){
     menuBtn.classList.remove('open');
 });
 
-toPortfolio.addEventListener("click",function(){
+toWeb.addEventListener("click",function(){
     to(block2)
     menuBox.classList.remove('show');
     menuBtn.classList.remove('open');
 });
 
-toOther.addEventListener("click",function(){
+toIllustration.addEventListener("click",function(){
     to(block3)
+    menuBox.classList.remove('show');
+    menuBtn.classList.remove('open');
+});
+
+toDynamic.addEventListener("click",function(){
+    to(block4)
     menuBox.classList.remove('show');
     menuBtn.classList.remove('open');
 });
